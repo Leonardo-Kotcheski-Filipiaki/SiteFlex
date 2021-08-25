@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    justify-content:space-around;
+}
+
+header #logo{
+    width:20vw;
+}
+
+header #logo img{
+    width:100%;
+}
+
+header #ident{
+    width:50vw;
+}
+
+header #ident h1{
+    font-size:18px;
+    text-align:center;
+}
+
+header #icon-menu{
+    width:20vw;
+}
+
+header #icon-menu img{
+    width:100%;
+}
+nav{
+position: absolute;
+margin-top: 13vh;
+background-color: #999;
+width:100vw;
+}
+
+nav ul li{
+list-style: none;
+border-bottom: 1px solid black;
+font-size:4vw;
+padding-top: 5vw;
+padding-bottom: 2vw;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size:20px;
+    margin-left:2vw;
+}
+
+#img-fundo{
+    position: absolute;
+    z-index:-1;
+    opacity: 0.7;
+    width: 100vw;
+}
