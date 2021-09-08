@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: #3E4966;
+    flex: content;
+}
+
+header section{
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+header h1{
+    font-size: 10vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#2C1A1A;
+    padding-left: 0.5vh;
+}
+
+header img{
+    width: 12vh;
+    padding-left: 4vh;
+}
+
+#controler{
+    transform: rotate(25.74deg);
+    padding-bottom: 1vh;
+}
+
+main{
+    background: #2C1A1A;  
+}
+
+main section img{
+    width: 40vh;
+    padding-left: 3vh;
+    justify-content: space-between;
+}
+
+
+#Farcry3{
+    width: 15vh;
+    padding-right: 15vh;    
+}
+
+#Horizon{
+    padding-right: 3vh;
+    width: 15vh;
+}
+
+#farcry3-p{
+    display: flex;
+    padding-left: 3vh;
+}
+
+#horizon-p{
+    padding-left: 17vh;
+}
+
+#other-games img{
+    width: 15vh;
+    padding-left: 3vh;
+    justify-content: space-between;
+}   
+
+#Raimbow-six{
+    padding-right: 15vh;
+}
+
+#other-games-p{
+    display: flex;
+    padding-left: 3vh;
+}
+
+#Assetto-corsa-p{
+    align-items: right;
+    padding-left: 19vh; 
+}
+
+footer{
+    padding-top: 3vw;
+    background-color: #3E4966;
+}
+
+@media (min-width: 900px) {
+    *{
+        margin:0;
+        padding:0;
+    }
+    
+    header{
+        background-color: #3E4966;
+        flex: content;
+    }
+    
+    header section{
+        justify-content: space-around;
+        display: inline-flex;
+    }
+    
+    header h1{
+        font-size: 10vw;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:#2C1A1A;
+        padding-left: 0.5vh;
+    }
+    
+    header img{
+        width: 12vh;
+        padding-left: 4vh;
+    }
+    
+    #controler{
+        transform: rotate(25.74deg);
+        padding-bottom: 1vh;
+    }
+    
+    main{
+        background: #2C1A1A;  
+    }
+    
+    main section img{
+        width: 40vh;
+        padding-left: 3vh;
+        justify-content: space-between;
+    }
+    
+    
+    #Farcry3{
+        width: 15vh;
+        padding-right: 15vh;    
+    }
+    
+    #Horizon{
+        padding-right: 3vh;
+        width: 15vh;
+    }
+    
+    #farcry3-p{
+        display: flex;
+        padding-left: 3vh;
+    }
+    
+    #horizon-p{
+        padding-left: 17vh;
+    }
+    
+    #other-games img{
+        width: 15vh;
+        padding-left: 3vh;
+        justify-content: space-between;
+    }   
+    
+    #Raimbow-six{
+        padding-right: 15vh;
+    }
+    
+    #other-games-p{
+        display: flex;
+        padding-left: 3vh;
+    }
+    
+    #Assetto-corsa-p{
+        align-items: right;
+        padding-left: 19vh; 
+    }
+    
+    footer{
+        padding-top: 3vw;
+        background-color: #3E4966;
+    }
+}
